@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Restaurant Menu Planner</title>
+</head>
+<body>
+  <h1>Restaurant Menu Planner</h1>
+
+  <button onclick="showAveragePrice()">Calculate Average Price</button>
+  <button onclick="showMostExpensive()">Find Most Expensive</button>
+  <button onclick="showGroups()">Group by Prep Time</button>
+  <button onclick="showCategory('Dessert')">Filter Desserts</button>
+  <button onclick="fetchItems()">Fetch New Items</button>
+
+  <p id="output"></p>
+
+  <h2>Menu Items</h2>
+  <table border="1" id="menuTable">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Category</th>
+        <th>Price</th>
+        <th>Prep Time</th>
+      </tr>
+    </thead>
+    <tbody></tbody>
+  </table>
+
+  <script src="menu.js"></script>
+</body>
+</html>
