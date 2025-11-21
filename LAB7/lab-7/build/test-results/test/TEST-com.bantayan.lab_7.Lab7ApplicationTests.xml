@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.bantayan.lab_7.Lab7ApplicationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2025-11-21T05:27:16.964Z" hostname="LAPTOP-2LH262A7" time="1.269">
+  <properties/>
+  <testcase name="contextLoads()" classname="com.bantayan.lab_7.Lab7ApplicationTests" time="1.269"/>
+  <system-out><![CDATA[13:27:14.758 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.bantayan.lab_7.Lab7ApplicationTests]: Lab7ApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+13:27:14.940 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.bantayan.lab_7.Lab7Application for test class com.bantayan.lab_7.Lab7ApplicationTests
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.5.8)
+
+2025-11-21T13:27:15.473+08:00  INFO 14424 --- [lab-7] [    Test worker] c.bantayan.lab_7.Lab7ApplicationTests    : Starting Lab7ApplicationTests using Java 17.0.17 with PID 14424 (started by decy cornico in C:\Users\decy cornico\Desktop\LAB7\lab-7)
+2025-11-21T13:27:15.479+08:00  INFO 14424 --- [lab-7] [    Test worker] c.bantayan.lab_7.Lab7ApplicationTests    : No active profile set, falling back to 1 default profile: "default"
+2025-11-21T13:27:16.945+08:00  INFO 14424 --- [lab-7] [    Test worker] c.bantayan.lab_7.Lab7ApplicationTests    : Started Lab7ApplicationTests in 1.79 seconds (process running for 3.13)
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
